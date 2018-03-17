@@ -9,7 +9,164 @@ background:rgba(255,255,255,.8);
 
 filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
 
-.w{max-width: 1340px;width: 100%;margin: 0 auto;}
-body{
-	font-size: 100%;
-}
+.w
+	max-width 1170px
+	width 100%
+	margin 0 auto
+body
+	font-size 100%
+.header
+	border-bottom 1px solid #353535
+	.brand
+		width 300px
+		height 135px
+		background url() center center no-repeat
+	.nav
+		padding-top 60px
+		font-size 16px
+		color #000
+		a
+			padding-bottom 15px
+			margin-left 60px
+			&:hover,
+			&.active
+				color #bd3d25
+				background url('../img/round.png') bottom center no-repeat
+.main
+	h3
+		position relative
+		padding-top 104px
+		font-size 18px
+		color #272727
+		line-height 38px
+		&:after
+			content ""
+			position absolute
+			left 0
+			bottom 0
+			width 20px
+			height 2px
+			background #bd3d25
+	.list-page-mobile
+		.item
+			padding-bottom 45px
+			border-bottom 1px solid #eeeeee
+	h4
+		padding 100px 0 50px
+		font-size 18px
+		color #272727
+		line-height 1
+	.pic
+		img
+			display block
+			width 100%
+	p
+		padding-top 33px
+		min-height 110px
+		font-size 14px
+		color #959595
+		line-height 2
+	a
+		display block
+		margin-top 40px
+		width 150px
+		height 42px
+		font-size 16px
+		color #272727
+		text-align center
+		line-height 42px
+		border 2px solid #272727
+		&:hover
+			background #272727
+			color #fff
+	.list-page-server
+		padding-top 80px
+		.item
+			&+.item
+				margin-top 30px
+			.pic
+				width 48%
+				img
+					display block
+					width 100%
+			.text
+				width 50%
+				padding-left 2%
+				h4
+					padding 5px 0 10px
+				.date
+					padding-bottom 15px
+					font-size 12px
+					color #959595
+					line-height 2
+					border-bottom 1px solid #e9e9e9
+				p
+					padding-top 17px
+				a
+					margin 20px 0 0 0
+	.list-page-ude
+		padding-top 75px
+		.none
+			width 100%
+		.item
+			padding-bottom 40px
+			width 49%
+			h4
+			p
+				padding 0
+				min-height auto
+				line-height 1.5
+			.date
+				padding-top 20px
+				font-size 14px
+				color #bd3d25
+				line-height 1
+			&+.item
+				margin-left 2%
+	.list-page-case
+		padding-top 75px
+		.item
+			box-sizing border-box
+			padding 10px
+			width 31%
+			background #eee
+			.text
+				padding-top 15px
+				width 100%
+				&>*
+					width 50%
+					overflow hidden
+					text-overflow ellipsis
+					white-space nowrap
+					float left
+					text-align right
+					line-height 2
+				h4
+					padding 0
+					text-align left
+			&+.item
+				margin-left 2%
+		.none
+			width 100%
+			padding-top 30px
+.page-control
+	padding-top 60px
+	a
+		margin-top 0
+		margin-right 10px
+		width 44px
+		height 44px
+		font-size 14px
+		color #272727
+		text-align center
+		line-height 44px
+		border 1px solid #272727
+		&:hover
+			background #bd3d25
+			border-color #bd3d25
+			color #fff
+.margin110-0
+	margin 110px 0
+.line
+	height 1px
+	background #272727
